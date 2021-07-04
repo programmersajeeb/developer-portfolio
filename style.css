@@ -8,12 +8,13 @@ h1{
 h2{
   font-size: 40px;
 }
-section{
-  margin-bottom: 150px;
-}
-.header-area{
+.filexible-content{
   display: flex;
-  /* justify-content: space-between; */
+}
+section{
+  padding-bottom: 150px;
+}
+.hero-area{
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
 }
@@ -22,10 +23,10 @@ section{
 }
 .banner-part-area{
   width:40%;
-  margin: 5%;
-  padding: 2%;
+  margin-left: 5%;
+  padding-left: 2%;
 }
-.header-banner-left a{
+.btn{
   text-decoration: none;
   background-image: linear-gradient(45deg, lightsalmon, tomato);
   color: #fff;
@@ -33,6 +34,12 @@ section{
   border-radius: 5px;
   font-weight: 700;
 }
-.header-banner-right img{
+.hero-banner-right img, .resume-image-area img{
   width: 100%;
 }
+.resume-content-area{
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
