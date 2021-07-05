@@ -42,4 +42,29 @@ section{
   background-repeat: no-repeat;
   background-position: right;
 }
+.experiences-area{
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.full-stack-developer, .biginner-developer{
+  box-shadow: rgba(128, 128, 128, 1) 0px 7px 29px 0px;
+  height: 380px;
+}
+.full-stack-developer{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
+.biginner-developer{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+footer p{
+  text-align: center;
+}
+
+
+
 
